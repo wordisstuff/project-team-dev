@@ -64,7 +64,7 @@
   text-shadow: rgba(0, 0, 0, 0.1) 0px 4px 70px;
 }
 
-.hero__header > span {
+.hero__header>span {
   font-style: italic;
   color: var(--lime-color);
 }
@@ -134,7 +134,7 @@
   transition: border-color var(--transition);
 }
 
-.hero__buttons-item > .hero__btn-active {
+.hero__buttons-item>.hero__btn-active {
   background-color: #f9f7f4;
   border: none;
   color: var(--text-color);
@@ -199,7 +199,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .hero > .container {
+  .hero>.container {
     display: flex;
     gap: 29px;
   }

@@ -70,23 +70,16 @@
   flex-direction: column;
   justify-content: space-between;
   overflow: auto;
-  transition: 600ms linear;
+  transition: 280ms linear;
   transform: translateX(0%);
 }
 
-.is-open {
-  /* display: none;
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none; */
-  transition: 600ms linear;
-  transform: translateX(100%);
-}
+
 
 .link:hover,
 .link:focus {
   color: var(--habanero-color);
-  transition-duration: 300ms;
+  transition-duration: 280ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -213,4 +206,9 @@
 
 .is-hide+.js-btn-hide {
   stroke: var(--logo-color);
+}
+
+.is-open {
+  transition: 280ms linear;
+  transform: translateX(100%);
 }
