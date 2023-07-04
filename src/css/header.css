@@ -211,6 +211,6 @@
   display: none;
 }
 
-.is-hide+.js-close-menu {
+.is-hide+.js-btn-hide {
   stroke: var(--logo-color);
 }
