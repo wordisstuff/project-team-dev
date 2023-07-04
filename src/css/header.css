@@ -74,7 +74,7 @@
   transform: translateX(0%);
 }
 
-.is-hidden {
+.is-open {
   /* display: none;
   visibility: hidden;
   opacity: 0;
@@ -97,7 +97,6 @@
 .mod-open-btn {
   border: none;
   background-color: transparent;
-
   fill: var(--white-text-color);
   cursor: pointer;
 }
@@ -131,6 +130,7 @@
   background-color: transparent;
   fill: var(--logo-color);
   cursor: pointer;
+  fill: var(--logo-color);
 }
 
 .menu-open-btn:hover,
@@ -200,4 +200,17 @@
   }
 }
 
-/* 123 */
+
+/* rev btn */
+
+.is-hide {
+  fill: transparent;
+}
+
+.js-btn-hide.is-hide {
+  display: none;
+}
+
+.is-hide+.js-close-menu {
+  stroke: var(--logo-color);
+}
